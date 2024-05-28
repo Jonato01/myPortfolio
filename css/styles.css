@@ -1,0 +1,21 @@
+.bg-image {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Adding a dark overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075) !important;
+}
