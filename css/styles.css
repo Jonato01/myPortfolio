@@ -19,3 +19,28 @@
 .shadow-sm {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075) !important;
 }
+
+/* Stile per la navbar con sfondo bianco opaco */
+.bg-opacity {
+    background-color: rgba(255, 255, 255, 0.75); /* Sfondo bianco con opacità */
+}
+
+/* Stile per il contenitore dell'header */
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo nero con opacità */
+    padding: 20px;
+    border-radius: 10px;
+}
+#skills {
+      /* Verde medio tra verde acqua e verde chiaro */
+    color: white;
+}
+
+#skills .card {
+    background-color: white;
+    color: #333; /* Testo scuro per contrastare con il bianco */
+}
+#skills .card-title {
+    color: #333333; /* Colore di testo grigio scuro per migliore leggibilità */
+}
+
